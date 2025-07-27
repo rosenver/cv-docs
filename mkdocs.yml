@@ -1,0 +1,31 @@
+site_name: Docs-as-Code CV – Rosenver Yepez Arrieta
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - content.action.edit
+
+nav:
+  - Home: index.md
+  - Motivation: motivation.md
